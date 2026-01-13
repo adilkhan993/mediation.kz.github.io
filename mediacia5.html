@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+        header {
+            background: #2c7be5;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #1f5fbf;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 500px;
+            margin: 40px auto;
+            padding: 25px;
+            background: white;
+            border-radius: 8px;
+        }
+        h2 {
+            text-align: center;
+            color: #2c7be5;
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            margin-top: 20px;
+            padding: 12px;
+            background: #2c7be5;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #1f5fbf;
+        }
+        .note {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #666;
+            text-align: center;
+        }
+        footer {
+            background: #2c7be5;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Регистрация</h1>
+    <p>Создайте личный кабинет</p>
+</header>
+
+<nav>
+    <a href="index.html">О медиации</a>
+    <a href="services.html">Услуги</a>
+    <a href="mediacia4.html">Кейсы</a>
+    <a href="consultation.html">Консультация</a>
+    <a href="register.html">Регистрация</a>
+</nav>
+
+<div class="container">
+    <h2>Форма регистрации</h2>
+
+    <form>
+        <label>Имя</label>
+        <input type="text" placeholder="Введите имя" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Введите email" required>
+
+        <label>Пароль</label>
+        <input type="password" placeholder="Введите пароль" required>
+
+        <label>Повторите пароль</label>
+        <input type="password" placeholder="Повторите пароль" required>
+
+        <button type="submit">Зарегистрироваться</button>
+    </form>
+
+    <div class="note">
+        Регистрируясь, вы соглашаетесь с правилами сайта
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 Медиация. Все права защищены.</p>
+</footer>
+
+</body>
+</html>

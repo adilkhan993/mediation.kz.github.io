@@ -1,0 +1,7 @@
+body { font-family: 'Inter', sans-serif; }
+.hero-bg {
+    background: linear-gradient(rgba(44, 62, 80, 0.6), rgba(44, 62, 80, 0.6)), 
+                url('https://cdn.leonardo.ai/users/69dbbca9-989a-41e0-bb06-f19feac976ff/generations/1f0f0748-8b65-6a50-a92a-9e8c202065ab/lucid-origin_A_serene_and_elegant_illustration_of_a_mediation_scene_depicting_two_people_from-0.jpg');
+    background-size: cover;
+    background-position: center;
+}
